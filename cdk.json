@@ -35,6 +35,14 @@
     "@aws-cdk/core:target-partitions": [
       "aws",
       "aws-cn"
-    ]
+    ],
+    "dev":{
+      "ENV_PARAM_A": "dev_hogehoge",
+      "ENV_PARAM_B": "dev_fugafuga"
+    },
+    "prod":{
+      "ENV_PARAM_A": "prod_hogehoge",
+      "ENV_PARAM_B": "prod_fugafuga"
+    }
   }
 }
