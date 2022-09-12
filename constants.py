@@ -8,7 +8,7 @@ env = app.node.try_get_context("env")
 cdk_json_params = app.node.try_get_context(env)
 
 # 環境共通の定数
-APP_NAME = "EnvParamDemo"
+APP_NAME = f"EnvParamDemo_{env}"
 ACCOUNT = os.environ["CDK_DEFAULT_ACCOUNT"]
 REGION = os.environ["CDK_DEFAULT_REGION"]
 
